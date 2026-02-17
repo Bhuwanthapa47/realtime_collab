@@ -82,10 +82,4 @@ Demo credentials (placeholders)
 - Username: `demo@example.com`
 - Password: `Password123!`
 
-Notes and next steps
 
-- I will initialize a local git repository, add these files, and make an initial commit. Provide your remote URL when ready and I will push to the `main` branch.
-- If you want me to create a GitHub repo automatically, provide a personal access token with `repo` scope and I can create & push.
-
----
-Please let me know the remote URL when ready to push.
