@@ -1,6 +1,6 @@
 # Demo & Submission Checklist
 
-This file contains concise instructions to run the project, demo credentials, a short submission checklist, and API examples you can include with your submission.
+This file contains concise instructions to run the project, demo credentials, a short submission checklist, and API examples.
 
 ## Quick run (Windows)
 
@@ -31,14 +31,6 @@ Frontend default: `http://localhost:3000`
 - Password: `Password123!`
 
 These are placeholder accounts for demonstration only. Create additional users via the registration endpoint if needed.
-
-## Submission checklist
-
-- [ ] Repo pushed to remote: `main` branch
-- [ ] README.md includes setup and architecture overview
-- [ ] DEMO.md (this file) attached and linked from README.md
-- [ ] Demo credentials included
-- [ ] Minimal run steps provided
 
 ## API examples
 
