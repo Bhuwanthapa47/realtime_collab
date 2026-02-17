@@ -1,0 +1,105 @@
+.task-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.task-list.drag-over {
+  background: #f0f7ff;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.3);
+}
+
+.task-list-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  flex: 1;
+}
+
+.list-name-input {
+  width: 100%;
+  padding: 5px 8px;
+  border: 2px solid #667eea;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.btn-add-task {
+  width: 100%;
+  padding: 10px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.btn-add-task:hover {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.add-task-form {
+  background: #f8f8f8;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.task-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.task-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.task-input:focus,
+.task-textarea:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.add-task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 13px;
+}

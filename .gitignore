@@ -1,0 +1,16 @@
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Temporary files
+*.tmp
+*.swp
